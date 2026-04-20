@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+mlflow
+fastapi
+uvicorn
+streamlit
+pytest
+evidently
+xgboost
+pydantic
+shap
+pytest
+kaggle
+lightgbm
