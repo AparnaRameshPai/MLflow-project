@@ -50,7 +50,7 @@ if st.button("Predict Churn"):
         "PaymentMethod": PaymentMethod
     }
     
-    response = requests.post("http://127.0.0.1:8000/predict", json=customer_data)
+    response = requests.post("https://finchurn.onrender.com/predict", json=customer_data)
     result = response.json()
     
     st.metric("Churn Probability", f"{result['churn_probability']:.1%}")
